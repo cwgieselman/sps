@@ -1,9 +1,7 @@
-Skilljar
+Saint Paul Stylee
 ========
 
-This repo tracks changes to content and styles used on Jamf’s instance of the training platform [Skilljar](https://www.skilljar.com/).
-
-https://training.jamf.com/ is the free website, and https://trainingcatalog.jamf.com/ is the paid website.
+This repo tracks development of the promotional website for the 311 Trinute Band [Saint Paul Stylee](https://www.saintpaulstylee.com/).
 
 Setup
 -----
