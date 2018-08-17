@@ -15,7 +15,7 @@ npm install
 Build
 -----
 
-Run Grunt to create minified HTML and CSS assets in the `/dist/` directory for Skilljar:
+Run Grunt to create minified HTML, CSS and JS assets in the `/dist/` directory for upload:
 
 ```bash
 grunt
@@ -26,4 +26,3 @@ Or you can run the following to trigger Grunt:
 ```bash
 npm run build
 ```
-# sps
