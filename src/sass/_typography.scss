@@ -1,0 +1,109 @@
+body {
+    color: $regal-blue;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 1.5;
+}
+
+h1 {
+    background: #ffcc00;
+    border: 2px solid;
+    border-radius: 30px;
+    color: #cc3333;
+    display: inline-block;
+    font-size: .8em;
+    letter-spacing: .125em;
+    padding: .25em .5em;
+    text-transform: uppercase;
+}
+
+h1 span {
+    display: inline-block;
+}
+
+// graphic inside the h1
+.three-eleven__logo {
+    height: 16px;
+    margin-bottom: -4px;
+}
+
+@media screen and (min-width: 374px) {
+    h1 {
+        font-size: 1em;
+        padding: .25em .5em;
+    }
+
+    .three-eleven__logo {
+        height: 20px;
+        margin-bottom: -5px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    h1 {
+        border: 4px solid;
+        font-size: 1.75em;
+        padding: .25em 1em;
+    }
+
+    .three-eleven__logo {
+        height: 38px;
+        margin-bottom: -10px;
+    }
+}
+
+h2 {
+    color: $persian-red;
+    font-size: 2.25em;
+    text-align: center;
+}
+
+p {
+    letter-spacing: 1px;
+    margin-bottom: 1.5em;
+}
+
+a {
+    color: $kashmir-blue;q
+}
+
+blockquote {
+    color: $persian-red;
+    font-family: "Raleway", sans-serif;
+
+    span {
+        display: inline-block;
+    }
+
+    .quote {
+
+        font-size: 2.25rem;
+        font-style: italic;
+        line-height: 1.2;
+        margin-bottom: .5em;
+        text-align: center;
+
+        &::before {
+            content: open-quote;
+        }
+
+        &::after {
+            content: close-quote;
+        }
+    }
+
+    footer {
+        font-size: 1.75rem;
+        font-style: italic;
+        text-align: right;
+
+        &::before {
+            content: "--";
+        }
+    }
+}
+
+hr {
+    border-color: $regal-blue;
+    opacity: .1;
+}

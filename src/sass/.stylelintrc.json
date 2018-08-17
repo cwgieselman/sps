@@ -1,0 +1,83 @@
+{
+    "extends": "stylelint-config-standard",
+    "plugins": [
+        "stylelint-order",
+        "stylelint-scss"
+    ],
+    "rules": {
+        "at-rule-no-unknown": null,
+        "at-rule-empty-line-before": null,
+        "at-rule-semicolon-newline-after": "always",
+        "block-closing-brace-newline-after": "always",
+        "block-closing-brace-newline-before": "always",
+        "block-no-empty": true,
+        "block-opening-brace-newline-after": "always",
+        "color-hex-length": "long",
+        "comment-whitespace-inside": null,
+        "declaration-no-important": null,
+        "function-url-no-scheme-relative": true,
+        "indentation": 4,
+        "max-nesting-depth": [
+            4,
+            {
+                "severity": "warning"
+            }
+        ],
+        "no-descending-specificity": [
+            true,
+            {
+                "severity": "warning"
+            }
+        ],
+        "no-duplicate-selectors": true,
+        "no-unknown-animations": true,
+        "number-leading-zero": "never",
+        "number-no-trailing-zeros": true,
+        "order/order": [
+            {
+                "type": "at-rule",
+                "name": "extend"
+            },
+            {
+                "type": "at-rule",
+                "name": "include"
+            },
+            "custom-properties",
+            "dollar-variables",
+            "declarations",
+            {
+                "type": "at-rule",
+                "name": "media"
+            }
+        ],
+        "rule-empty-line-before": [
+            "always",
+            {
+                "ignore": [
+                    "after-comment",
+                    "inside-block"
+                ]
+            }
+        ],
+        "scss/at-import-no-partial-leading-underscore": true,
+        "scss/at-mixin-pattern": "^[a-z]+([-a-z0-9]*[a-z0-9]+)?$",
+        "scss/at-rule-no-unknown": true,
+        "scss/dollar-variable-pattern": "^[a-z][a-z0-9]*(-[a-z0-9]+)*$",
+        "scss/media-feature-value-dollar-variable": null,
+        "scss/operator-no-newline-after": true,
+        "scss/operator-no-newline-before": true,
+        "scss/operator-no-unspaced": true,
+        "scss/percent-placeholder-pattern": "^[a-z]+([-a-z0-9]*[a-z0-9]+)?$",
+        "scss/selector-no-redundant-nesting-selector": true,
+        "selector-class-pattern": "^[a-z0-9]+(-[a-z0-9]+)*(--[a-z0-9]+(-[a-z0-9]+)*)*(__[a-z0-9]+(-[a-z0-9]+)*(--[a-z0-9]+(-[a-z0-9]+)*)*)?$",
+        "selector-type-no-unknown": [
+            true,
+            {
+                "ignore": "custom-elements"
+            }
+        ],
+        "shorthand-property-no-redundant-values": null,
+        "string-quotes": "double",
+        "value-keyword-case": "lower"
+    }
+}

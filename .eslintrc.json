@@ -1,0 +1,16 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended"
+    ],
+    "globals": {
+        "document": true,
+        "window": true
+    },
+    "rules": {
+        "comma-dangle": "error"
+    }
+}

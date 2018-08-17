@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+$screen-sm: 1170px;
+$small-screen: 700px;
+
+$persian-red: #cc3333;
+$kashmir-blue: #527590;
+$regal-blue: #02396a;
+$alice-blue: #f0f8ff;
+
+@import "layout";
+@import "typography";
+@import "parallax";
+@import "mediaelementplayer";
+@import "playlist";
+@import "video";
