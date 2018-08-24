@@ -1,0 +1,33 @@
+
+
+
+.parallax__bg {
+	background-position: 50% 3%;	
+}
+
+.parallax__fg {
+	padding-top: 30vh;
+}
+
+
+@media screen and (min-width: 767px) {
+    .parallax__bg {
+        background-position: 50% 5%;
+        background-size: 1000px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .parallax__bg {
+        background-position: 50% 6%;
+        background-size: 1000px;
+    }
+
+    .parallax__fg {
+        padding-top: 14vh;
+    }
+}
+
+
+
