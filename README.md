@@ -1,7 +1,7 @@
 Saint Paul Stylee
 ========
 
-This repo tracks development of the promotional website for the 311 Trinute Band [Saint Paul Stylee](https://www.saintpaulstylee.com/).
+This repo tracks development of the promotional website for the 311 Tribute Band [Saint Paul Stylee](https://www.saintpaulstylee.com/).
 
 Setup
 -----
